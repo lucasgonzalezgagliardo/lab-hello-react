@@ -1,0 +1,62 @@
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  /* border: solid red 2px; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #282c34;
+  padding: 30px;
+}
+
+.Title {
+  /* border: solid red 2px; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 13vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 8vw;
+  padding-top: 5vh;
+}
+
+.Subtitle {
+    /* border: solid red 2px; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 8vw;
+  padding-bottom: 8vh;
+}
+
+.Footer {
+  /* border: solid yellow 2px; */
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-around;
+  color: black;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+
+.Icon {
+/* border: solid blue 2px; */
+display: flex;
+flex-direction: column;
+background-color: white;
+color: black;
+width: 20vw;
+justify-content: center;
+align-items: center;
+}
+
+.tituloDesc {
+  font-weight: bold;
+  font-size: 1.3em;
+}
